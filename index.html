@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+       <section>
+        <div class="section-header">
+        <p>NetCare GmbH · IT-Inventar</p>
+        <p>Kunde: Brenner Logistik GmbH</p>
+        </div>
+        </section>
+    </header>
+
+    <main>
+       
+    <section class="filter-section">
+        <div class="filter-group">
+            <label for="purpose-filter">Einsatzzweck</label>
+            <select id="purpose-filter">
+                <option value="all">Alle</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label for="search-input">Suche</label>
+            <input
+                type="search"
+                id="search-input"
+                placeholder="Name oder Beschreibung ..."
+            >
+        </div>
+    </section>
+    <section class="filter-options">
+        <fieldset>
+        <legend>IP-Typ</legend>
+
+        <label>
+            <input type="radio" name="ip-type" value="all" checked>
+            Alle
+        </label>
+
+        <label>
+            <input type="radio" name="ip-type" value="v4">
+            nur IPv4
+        </label>
+
+        <label>
+            <input type="radio" name="ip-type" value="v6">
+            nur IPv6
+        </label>
+        </fieldset>
+        <div class="update-filter">
+            <label>
+                <input type="checkbox" id="update-filter">
+                Nur „Update nötig“
+            </label>
+        </div>
+        </section>
+
+        <section class="inventory-section">
+
+            <p id="result-count">16 von 16 Rechnern</p>
+            
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>PC-Nr.</th>
+                        <th>Beschreibung</th>
+                        <th>Zweck</th>
+                        <th>Hauptnutzer</th>
+                        <th>IP-Adressen</th>
+                    </tr>
+                </thead>
+
+                <tbody id="pc-table-body">
+                    <!-- Tabellenzeilen werden mit JavaScript erzeugt -->
+                </tbody>
+            </table>
+
+            <p id="no-results" hidden>Keine Rechner gefunden.</p>
+
+        </section>
+        <div id="pc-cards" class="pc-cards"></div>
+        <dialog id="pc-dialog">
+            <h2 id="dialog-title"></h2>
+
+            <div id="dialog-content"></div>
+
+            <button type="button" id="close-dialog">Schließen</button>
+        </dialog>
+    </main>
+
+    <footer>
+    <p>© NetCare GmbH · Datenstand: data/pcs.json</p>
+</footer>
+    
+</body>
+</html>

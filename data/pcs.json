@@ -1,0 +1,190 @@
+[
+  {
+    "PC_DATA": {
+      "pcId": 494,
+      "Description": "PC in der Abteilung Software.",
+      "Purpose": "Development",
+      "MainUser": { "userId": 12, "userName": "Anita Scheurenbrandt" },
+      "IPAddresses": [
+        { "Value": "192.168.0.23/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:e0ca:9e76:661f:c4f1", "Type": "v6" },
+        { "Value": "2012:65:fd85:5712:fdf4:11ed:9aba:9e27", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 152,
+      "Description": "Im First level support. Updaten!",
+      "Purpose": "Office",
+      "MainUser": { "userId": 67, "userName": "Esra Hiliam" },
+      "IPAddresses": [
+        { "Value": "192.168.0.20/24", "Type": "v4" },
+        { "Value": "192.168.0.55/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:fdf4:11ed:9cc3:1234", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 534,
+      "Description": "Eingesetzt in der Buchhaltung",
+      "Purpose": "Office",
+      "MainUser": { "userId": 243, "userName": "Asymien Gourie" },
+      "IPAddresses": [
+        { "Value": "192.168.0.27/24", "Type": "v4" },
+        { "Value": "192.168.0.32/24", "Type": "v4" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 495,
+      "Description": "Testrechner für Build-Prozesse in der Software.",
+      "Purpose": "Development",
+      "MainUser": { "userId": 12, "userName": "Anita Scheurenbrandt" },
+      "IPAddresses": [
+        { "Value": "192.168.0.24/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:e0ca:9e76:661f:c4f2", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 201,
+      "Description": "Empfang im Erdgeschoss. Updaten!",
+      "Purpose": "Office",
+      "MainUser": { "userId": 88, "userName": "Jonas Pfeiffer" },
+      "IPAddresses": [
+        { "Value": "192.168.0.41/24", "Type": "v4" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 310,
+      "Description": "Dateiserver im Serverraum",
+      "Purpose": "Server",
+      "MainUser": { "userId": 5, "userName": "Malte Brenner" },
+      "IPAddresses": [
+        { "Value": "192.168.0.2/24", "Type": "v4" },
+        { "Value": "192.168.0.3/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:0:0:0:2", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 311,
+      "Description": "Backup-Server im Keller",
+      "Purpose": "Server",
+      "MainUser": { "userId": 5, "userName": "Malte Brenner" },
+      "IPAddresses": [
+        { "Value": "192.168.0.4/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:0:0:0:4", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 402,
+      "Description": "Schulungsraum, Platz 1",
+      "Purpose": "Training",
+      "MainUser": { "userId": 120, "userName": "Lea Kowalski" },
+      "IPAddresses": [
+        { "Value": "192.168.10.11/24", "Type": "v4" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 403,
+      "Description": "Schulungsraum, Platz 2. Updaten!",
+      "Purpose": "Training",
+      "MainUser": { "userId": 120, "userName": "Lea Kowalski" },
+      "IPAddresses": [
+        { "Value": "192.168.10.12/24", "Type": "v4" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 512,
+      "Description": "Personalabteilung, Teamleitung",
+      "Purpose": "Office",
+      "MainUser": { "userId": 77, "userName": "Sabine Okonkwo" },
+      "IPAddresses": [
+        { "Value": "192.168.0.60/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:aa01:3c4d:e11:7a20", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 498,
+      "Description": "Laptop für Frontend-Entwicklung",
+      "Purpose": "Development",
+      "MainUser": { "userId": 34, "userName": "Tim Nguyen" },
+      "IPAddresses": [
+        { "Value": "192.168.0.71/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:b7c2:41aa:90de:71", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 499,
+      "Description": "Laptop Werkstudentin Software. Updaten!",
+      "Purpose": "Development",
+      "MainUser": { "userId": 156, "userName": "Pia Jankowski" },
+      "IPAddresses": [
+        { "Value": "192.168.0.27/24", "Type": "v4" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 620,
+      "Description": "Lager, Scanner-Station (neu ausgeliefert)",
+      "Purpose": "Office",
+      "MainUser": { "userId": 91, "userName": "Kemal Arslan" },
+      "IPAddresses": []
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 535,
+      "Description": "Buchhaltung, Zweitrechner",
+      "Purpose": "Office",
+      "MainUser": { "userId": 243, "userName": "Asymien Gourie" },
+      "IPAddresses": [
+        { "Value": "192.168.0.28/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:fdf4:11ed:9cc3:5678", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 153,
+      "Description": "First level support, Platz 2",
+      "Purpose": "Office",
+      "MainUser": { "userId": 210, "userName": "Miriam Hofstetter" },
+      "IPAddresses": [
+        { "Value": "192.168.0.21/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:fdf4:11ed:9cc3:1235", "Type": "v6" }
+      ]
+    }
+  },
+  {
+    "PC_DATA": {
+      "pcId": 700,
+      "Description": "Geschäftsführung",
+      "Purpose": "Office",
+      "MainUser": { "userId": 1, "userName": "Helga Brenner" },
+      "IPAddresses": [
+        { "Value": "192.168.0.10/24", "Type": "v4" },
+        { "Value": "2012:65:fd85:5712:0:0:0:10", "Type": "v6" }
+      ]
+    }
+  }
+]

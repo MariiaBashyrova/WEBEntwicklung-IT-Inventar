@@ -1,0 +1,163 @@
+ :root {
+            --farbe-primaer: #6529e6; /*tech: CSS custom property, vgl. WPF-Ressourcen*/
+            --farbe-primaer-dunkel: #2a2263;
+            --farbe-gefahr: #e03131;
+            --farbe-hintergrund: #eef3f1;
+            --farbe-karte: #dee5f7;
+            --farbe-text: #1f2a26;
+            --farbe-gedaempft: #7a8a84;
+            --farbe-rand: #dbe4e0;
+            --radius: 10px;
+            
+        }
+ 
+
+        .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--farbe-hintergrund);
+    padding: 0 10px;
+     }
+    
+
+     .filter-section {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 20px;
+   
+    border: 1px solid var(--farbe-rand);}    
+    
+    .filter-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;}   
+
+     .filter-options {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 30px;
+    align-items: center;
+    border: 1px solid var(--farbe-rand);}   
+    
+    .filter-options fieldset {
+    display: flex;
+    align-items: center;
+    gap: 15px;}
+
+    .update-filter {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    }  
+
+     table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--farbe-rand);
+}
+
+th, td {
+    border: 1px solid var(--farbe-rand);
+    padding: 10px;
+}
+
+th {
+    background-color: var(--farbe-primaer-dunkel);
+    color: white;
+    text-align: left;
+}
+td {
+    white-space: pre-line;
+}
+.update-noetig {
+    background-color: var(--farbe-gedaempft);
+    color: white;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--farbe-rand);
+}
+
+footer {
+    width: 100%;
+  
+    padding: 10px;
+    text-align: left;
+    background-color: var(--farbe-hintergrund);
+}
+
+body {
+            margin: 0 auto;
+            max-width: 900px;
+            text-align: center;
+            font-family: "Segoe UI", Arial, sans-serif;
+            
+        }
+* {
+    box-sizing: border-box;
+}
+
+#pc-dialog {
+    border: 1px solid var(--farbe-primaer-dunkel);
+    border-radius: var(--radius);
+    padding: 20px;
+    background-color: var(--farbe-hintergrund);
+    width: 400px;
+    max-width: 90%;
+    text-align: left;
+}
+
+.pc-cards {
+    display: none;
+    text-align: left;
+   
+}
+
+.pc-card-article {
+    border: 1px solid var(--farbe-primaer-dunkel);
+    border-radius: var(--radius);
+   
+   
+    cursor: pointer;
+}
+.pc-card-article p {
+    margin: 3px;
+    padding: 0;
+}
+@media (max-width: 700px) {
+    .inventory-section table {
+        display: none;
+    }
+
+    .pc-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .filter-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+     .filter-options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .section-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}
